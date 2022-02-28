@@ -155,8 +155,8 @@ export class Polling extends Transport {
       }
 
       if (contentLength > this.maxHttpBufferSize) {
-        chunks = isBinary ? Buffer.concat([]) : "";
         res.writeHead(413).end();
+        cleanup();
       }
     };
 
