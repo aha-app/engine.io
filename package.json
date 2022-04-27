@@ -1,6 +1,6 @@
 {
-  "name": "engine.io",
-  "version": "3.3.2",
+  "name": "@aha-app/engine.io",
+  "version": "3.3.2-1",
   "description": "The realtime engine behind Socket.IO. Provides the foundation of a bidirectional connection between client and server",
   "main": "lib/engine.io",
   "author": "Guillermo Rauch <guillermo@learnboost.com>",
@@ -27,10 +27,10 @@
   "dependencies": {
     "accepts": "~1.3.4",
     "base64id": "1.0.0",
+    "cookie": "0.3.1",
     "debug": "~3.1.0",
     "engine.io-parser": "~2.1.0",
-    "ws": "~6.1.0",
-    "cookie": "0.3.1"
+    "ws": "~6.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
